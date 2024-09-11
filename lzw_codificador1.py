@@ -41,9 +41,6 @@ def compressor(dados_entrada,tam_max):
 
                 if len(dictionary) >= pow(2,tam_bits):
                     tam_bits +=1
-            elif primeiro == False:
-                print(f'Aconteceu em {len(comprimento_medio)}')
-                primeiro = True
                 
             current = bytes([byte])
 
